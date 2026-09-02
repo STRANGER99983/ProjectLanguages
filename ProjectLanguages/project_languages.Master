@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="project_languages.Master.cs" Inherits="project_languages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+        <div>
+            <header class="site-header">
+                <span id="lblUserInfo" runat="server" style="float: left;"></span>
+
+                <nav class="main-nav">
+                  <ul>
+                    <li><a href="home.aspx">בית</a></li>
+                    <li><a href="languages.aspx">שפות</a></li>
+                    <li><a href="register.aspx">הרשמה</a></li>
+                    <li><a href="resources.aspx">משאבים</a></li>
+                    <li><a href="about.aspx">אודות</a></li>
+                    <li><a href="login.aspx">כניסה</a></li>
+
+                    <% if (Session["is_admin"] != null && (bool)Session["is_admin"]) { %>
+                        <li><a href="admin_page.aspx">ניהול משתמשים</a></li>
+                    <% } %>
+                  </ul>
+                </nav>
+              </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

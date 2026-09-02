@@ -1,0 +1,92 @@
+﻿/* קובץ CSS חיצוני — יש בו לפחות שתי תכונות עיצובים */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl; /* עברית: ימין לשמאל */
+    background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+    margin: 0;
+}
+
+.language {
+    direction: ltr;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 16px;
+}
+
+.site-header {
+    background: #0b5cff;
+    color: white;
+    padding: 8px 0;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-table-td {
+    margin-left: auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.cover {
+    text-align: center;
+    padding: 40px;
+}
+
+.envelope {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.logos{
+    width: 48px;
+    height: 48px;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 12px;
+    background: #eee;
+    margin-top: 24px;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-6px);
+    }
+}
+
+.envelope {
+    animation: float 2s infinite alternate;
+}
+
+form label {
+    display: block;
+    margin: 8px 0;
+}
+
+input, select, textarea {
+    padding: 6px;
+}
