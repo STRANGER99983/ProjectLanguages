@@ -7,7 +7,7 @@
     <main class="cover">
         <a href="mailto:daniyelreibarkh@gmail.com"><img src="images/envelope.png" alt="דואר אלקטרוני" class="envelope"></a>
         <h1>שפות תכנות ושימושיהן</h1>
-        <h2 class="student-name">דניאל</h2>
+        <h2 class="student-name">{STUDENT-NAME}</h2>
         <p class="why">בחרתי בנושא זה כי שפות תכנות עוזרות לבנות תוכנות, לאתגר את החשיבה ולהכין לקריירה בתחום ההייטק.</p>
         <p class="audience">לקהל: תלמידים שמתחילים ללמוד תכנות ומעוניינים לדעת מה מתאים להם.</p>
         <p class="goals">מטרות: להציג 5 שפות, להסביר למה משתמשים בהן ולהראות דוגמה קצרה לכל אחת.</p>
