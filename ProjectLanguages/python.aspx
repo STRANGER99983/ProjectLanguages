@@ -25,6 +25,4 @@ def sum_numbers(a, b):
 print(sum_numbers(3, 4))
 </code></pre>
   </main>
-
-  <footer class="site-footer">למידה מהנה!</footer>
 </asp:Content>

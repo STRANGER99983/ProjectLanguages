@@ -63,6 +63,4 @@
 
         <% } %>
     </main>
-
-    <footer class="site-footer">טופס לדוגמה — שומר נתונים</footer>
 </asp:Content>

@@ -12,6 +12,4 @@
       <li><a href="ruby.aspx">Ruby</a> - ידידותית לפיתוח מהיר של אפליקציות ווב (Rails).</li>
     </ol>
   </main>
-
-  <footer class="site-footer">האתר נכתב כמחקר פשוט ולימודי</footer>
 </asp:Content>

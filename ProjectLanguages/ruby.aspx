@@ -24,7 +24,4 @@ def add(a, b)
 end
 puts add(2,3)
 </code></pre>
-  </main>
-
-  <footer class="site-footer">פשוט ומהיר</footer>
 </asp:Content>

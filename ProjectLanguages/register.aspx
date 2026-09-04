@@ -73,6 +73,4 @@
       <label>הערות: <textarea name="notes" rows="4"></textarea></label>
       <input type="submit" value="שלח הרשמה" method="get" runat="server" name="submit"/>
   </main>
-
-  <footer class="site-footer">טופס לדוגמה — שומר נתונים</footer>
 </asp:Content>

@@ -23,6 +23,4 @@ public class Hello {
 }
 </code></pre>
   </main>
-
-  <footer class="site-footer">שפות ענקיות בעולם התעשייה</footer>
 </asp:Content>

@@ -5,7 +5,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main class="cover">
-        <a href="mailto:daniyelreibarkh@gmail.com"><img src="images/envelope.png" alt="דואר אלקטרוני" class="envelope"></a>
+        <a href="mailto:something@gmail.com"><img src="images/envelope.png" alt="דואר אלקטרוני" class="envelope"></a> <!-- Change your email in 'href' -->
         <h1>שפות תכנות ושימושיהן</h1>
         <h2 class="student-name">{STUDENT-NAME}</h2>
         <p class="why">בחרתי בנושא זה כי שפות תכנות עוזרות לבנות תוכנות, לאתגר את החשיבה ולהכין לקריירה בתחום ההייטק.</p>

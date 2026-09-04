@@ -14,6 +14,4 @@
       </ul>
     </section>
   </main>
-
-  <footer class="site-footer">פרויקט לימודי - שפות תכנות</footer>
 </asp:Content>

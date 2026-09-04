@@ -15,6 +15,4 @@ int main() {
 }
 </code></pre>
   </main>
-
-  <footer class="site-footer">משתלם ללמוד יסודות</footer>
 </asp:Content>

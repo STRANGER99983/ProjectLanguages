@@ -9,6 +9,4 @@
         
         <div id="usersTableContainer" runat="server"></div>
     </main>
-
-    <footer class="site-footer">דף ניהול משתמשים</footer>
 </asp:Content>

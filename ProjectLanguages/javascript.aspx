@@ -24,6 +24,4 @@ function joinStrings(a, b) {
 }
 console.log(joinStrings('שלום', 'עולם'));</code></pre>
   </main>
-
-  <footer class="site-footer">קצת JS זה כיף</footer>
 </asp:Content>
