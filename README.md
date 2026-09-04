@@ -1,7 +1,7 @@
 # ProjectLanguages
 
 > ⚠️ IMPORTANT WARNING  
-> Read the attached instructions carefully before downloading or using the project
+> Read the attached instructions carefully before downloading or using the project  
 > If you do not read the instructions, the creator of the project STRANGER99983 is not responsible for the project not working or breaking on your device, and all fault will lie solely with you  
 > If any issues arise, contact STRANGER99983 personally
 
@@ -27,7 +27,7 @@
 ### 2. Environment Language Setup (MANDATORY)
 When starting Visual Studio, change the environment language to English:
 > Tools -> Options -> Environment -> International Settings -> Language -> English  
-> Why this is necessary: It will make it easier to understand which exact items are needed, plus Anat doesn't understand Russian — if she doesn't understand what to do, nobody will understand what to do
+> Why this is necessary: It will make it easier to understand which exact items are needed, plus Anat doesn't understand Russian - if she doesn't understand what to do, nobody will understand what to do
 
 ---
 
@@ -70,7 +70,7 @@ CREATE TABLE [dbo].[Users] (
 ---
 
 ### 5. Project Build, Restore, and Run
-1. In the Solution Explorer window, right-click on the topmost node — Solution 'ProjectLanguages'
+1. In the Solution Explorer window, right-click on the topmost node - Solution 'ProjectLanguages'
 2. Select Restore NuGet Packages
 3. In the top menu, select: Build -> Rebuild Solution
 4. Run the project (by pressing F5 or clicking the IIS Express launch button)
