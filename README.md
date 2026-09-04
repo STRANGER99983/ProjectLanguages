@@ -2,7 +2,7 @@
 
 > ⚠️ IMPORTANT WARNING  
 > Read the attached instructions carefully before downloading or using the project
-> If you do not read the instructions, the creator of the project STRANGER99983 is not responsible for the project not working or breaking on your device, and all fault will lie solely with you
+> If you do not read the instructions, the creator of the project STRANGER99983 is not responsible for the project not working or breaking on your device, and all fault will lie solely with you  
 > If any issues arise, contact STRANGER99983 personally
 
 ---
@@ -79,5 +79,5 @@ CREATE TABLE [dbo].[Users] (
 ---
 
 > ⚠️ REPEATED WARNING  
-> If you do not read the instructions, the creator of the project STRANGER99983 is not responsible for the project not working or breaking on your device, and all fault will lie solely with you
+> If you do not read the instructions, the creator of the project STRANGER99983 is not responsible for the project not working or breaking on your device, and all fault will lie solely with you  
 > If any issues arise, contact STRANGER99983 personally
