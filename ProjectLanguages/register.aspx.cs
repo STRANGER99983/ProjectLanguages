@@ -20,7 +20,7 @@ namespace project_languages
             {
                 string email = Request.Form["email"];
                 string password = Request.Form["password"];
-                string isExist = "select password from " + tableName + " where email = '" + email + "' and password = '" + password + "'";
+                string isExist = "select email from " + tableName + " where email = '" + email + "'";
                 if (Helper.IsExist(fileName, isExist) == false)
                 {
                     string fullname = Request.Form["fullname"];
@@ -32,7 +32,7 @@ namespace project_languages
                     string notes = Request.Form["notes"];
                     string insert = "insert into " + tableName + " (fullname, email, password, age, phone_number, interest, get_emails, experience, notes) " +
                         "values ('" + fullname + "', '" + email + "', '" + password + "', '" + age + "', '" + phone + "', '" + interest + "', '" + get_emails + "', '" + exp + "', '" + notes + "')";
-                    DataTable dataTable = Helper.ExecuteDataTable(fileName, insert);
+                    Helper.DoQuery(fileName, insert);
                     Response.Redirect("home.aspx");
                 } else
                 {

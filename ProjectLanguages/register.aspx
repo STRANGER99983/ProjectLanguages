@@ -71,6 +71,9 @@
         <label><input type="radio" name="exp" value="more"> הרבה</label>
       </fieldset>
       <label>הערות: <textarea name="notes" rows="4"></textarea></label>
-      <input type="submit" value="שלח הרשמה" method="get" runat="server" name="submit"/>
+      <input type="submit" value="שלח הרשמה" runat="server" name="submit"/>
+      <div style="text-align: center; margin-top: 20px;">
+          <a href="#form1">בחזרה לראש הדף ▲</a>
+      </div>
   </main>
 </asp:Content>

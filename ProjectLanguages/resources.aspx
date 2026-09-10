@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main class="container">
-    <h1>קישורים חיצוניים (דוגמה)</h1>
+    <h1>קישורים חיצוניים</h1>
     <ul>
       <li><a href="https://www.python.org">Python.org</a></li> <!-- Change resources if needed -->
       <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li> <!-- Change resources if needed -->

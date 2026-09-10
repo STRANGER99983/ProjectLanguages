@@ -1,7 +1,6 @@
-﻿/* קובץ CSS חיצוני — יש בו לפחות שתי תכונות עיצובים */
-body {
+﻿body {
     font-family: Arial, sans-serif;
-    direction: rtl; /* עברית: ימין לשמאל */
+    direction: rtl;
     background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
     margin: 0;
 }
